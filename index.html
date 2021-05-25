@@ -2,15 +2,73 @@
 <html lang="es">
     <head>
         <title>Jorge Piguave</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <style>
+            *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(148, 148, 143);
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+    font-size: 10px;
+    
+}
+.ref-icons8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-container{
+    width: 100%;
+    margin: auto;
+}
+.languages-known{
+    display:flex;
+    right: auto;
+    justify-content:right;
+    flex-direction: row-reverse;
+}
+.img-container{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: auto;    
+}
+.message-banner{
+    color: rgb(88, 88, 88);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.message-announce{
+    font-family: 'Dancing Script', cursive;
+}
+
+        </style>
     </head>
     <body>
         <div class="main-container">
+            <div class="languages-known">
+                <img src="https://img.icons8.com/material/24/000000/python.png"/>
+                <img src="https://img.icons8.com/material/24/000000/css3.png"/>
+                <img src="https://img.icons8.com/material-sharp/24/000000/html-5.png"/>
+            </div>
+            <div class="ref-icons8">
+                <a href="https://icons8.com/icon/6taV4cmrc1Bw/html-5">html 5, css3, python icons by Icons8</a>
+            </div>
             <div class="img-container">
-                <h1>Desarrollando herramientas para mejorar el futuro de todos </h1>
-                <h2>muy pronto</h2>
+                <h1 class="message-banner">DEVELOPING TOOLS</h1>
+                <h1 class="message-banner">TO IMPROVE MANKIND FUTURE</h1>
+                <h1 class="message-announce">coming soon</h2>
             </div>
         </div>
-        
     </body>
 </html>
