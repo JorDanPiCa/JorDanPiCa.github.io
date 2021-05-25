@@ -18,14 +18,25 @@ a{
     flex-direction: row-reverse;
 }
 .main-container{
-    width: 100%;
+    width: 95%;
     margin: auto;
 }
 .languages-known{
+    margin-top: 10px;
+    margin-right: 10px;
     display:flex;
     right: auto;
     justify-content:right;
     flex-direction: row-reverse;
+}
+.languages-known img{
+    margin-right: 1px;
+}
+.link-ref-icons:hover{
+    text-decoration: underline;
+}
+.ref-icons8 a{
+    margin-right: 11px;
 }
 .img-container{
     width: 100%;
