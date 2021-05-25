@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(background.jpeg);
+    background-color: black;
     background-size: auto;    
 }
 .img-container h1{
